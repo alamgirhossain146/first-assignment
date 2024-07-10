@@ -1,0 +1,84 @@
+.name_resume{
+    width: 1440px;
+    height: 131px;
+    float: left;
+    }
+.name{
+    width: 114px;
+    height: 34px;
+    font-size: 28px;
+    float: left;
+    text-align: left;
+    padding: 17px 24px 17px 24px;
+    margin: 50px 0 47px 150px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 33px;
+    }
+.resume{
+    width: 228px;
+    height: 58px;
+    float: right;
+    margin: 38px 166px 0 0 ;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    }
+.future{
+    width: 1440px;
+    height: 652px;
+    float: left;
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+}
+.hope{
+    width: 998px;
+    height: 582px;
+    background-color: red;
+    float: left;
+    margin: 26px 221px 44px 221px;
+}
+.why_web{
+    width: 946px;
+    height: 1235px;
+    background-color: red;
+    float: left;
+    padding: 80px 97px 80px 97px;
+    margin: 74px 152px 88px 148px;
+}
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    background-color: red;
+    float: left;
+    margin: 0 152px 151px 148px;
+}
+.targets{
+    width: 1140px;
+    height: 1437px;
+    background-color: red;
+    float: left;
+    margin: 0 150px 49px 150px;
+}
+.need{
+    width: 1044px;
+    height: 185px;
+    background-color: red;
+    float: left;
+    padding: 64px 48px 64px 48px;
+    margin: 0 150px 180px 150px;
+}
+.ending{
+    width: 1140px;
+    height: 36px;
+    background-color: red;
+    float: left;
+    padding: 32px 150px 32px 150px;
+    border: 1px solid blue;
+}
+.fb{
+    width: 1140px;
+    height: 36px;
+    background-color: red;
+    float: left;
+    padding: 32px 150px 32px 150px;
+}
