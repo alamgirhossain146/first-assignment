@@ -3,31 +3,27 @@
 .name_resume{
     width: 1440px;
     height: 131px;
+    display: flex;
     float: left;
+    justify-content: space-between;
     }
 .name{
-    width: 114px;
-    height: 34px;
     font-size: 28px;
-    float: left;
-    text-align: left;
     padding: 17px 24px 17px 24px;
-    margin: 50px 0 47px 150px;
+    margin: 50px 0 0 150px;
     color: rgb(13, 19, 33);
     font-weight: 800;
     }
 .btn-1{
-    width: 180px;
-    height: 24px;
-    float: right;
+    width: 226px;
+    height: 56px;
     padding: 17px 24px 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
-    margin: 38px 166px 35px 0;
+    margin: 38px 166px 0 0;
     opacity: 0.8;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600px;
-    text-align: center;
     }
 .near_future{
     width: 1440px;
@@ -40,38 +36,42 @@
     height: 582px;
     float: left;
     margin: 26px 221px 44px 221px;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
 }
-.image-1{
+.image-box-1{
     width: 998px;
     height: 272px;
     float: left;
-    text-align: center;
+}
+.image-box-1 img{
+    width: 240px;
+    height: 240px;
+    margin: 0 379px 32px 379px;
+}
+.heading-box-1{
+    width: 998px;
+    height: 310px;
+    float: left;
 }
 .heading-1{
-    width: 998px;
-    height: 136px;
-    float: left;
+    font-size: 48px;
     text-align: center;
-    font-size: 30px;
 }
 .para-1{
-    width: 998px;
-    height: 174px;
-    float: left;
-    text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 .btn-2{
-    width: 160px;
+    width: 170px;
     height: 24px;
+    float:left;
     padding: 21px 24px 21px 24px;
+    border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
-    margin: 0 395px 44px 395px;
-    float: left;
-    font-size: 20px;
+    margin: 32px 398px 44px 398px;
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 600px;
+    line-height: 2px;
+    text-align: center;
 }
 .why_web{
     width: 946px;
@@ -144,13 +144,27 @@
 .ending{
     width: 1140px;
     height: 36px;
-    background-color: white;
+    background-color: rgba(13, 19, 33, 0.03);
     float: left;
     padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
 }
-.fb{
+.last{
     width: 1140px;
     height: 36px;
     float: left;
-    background-color: red;
+}
+.awlad{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 20px;
+}
+.media{
+    display: flex;
+    justify-content:space-around;
+}
+.mediax{
+    margin-right: 20px;
 }
