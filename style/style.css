@@ -1,3 +1,5 @@
+
+
 .name_resume{
     width: 1440px;
     height: 131px;
@@ -13,18 +15,21 @@
     margin: 50px 0 47px 150px;
     color: rgb(13, 19, 33);
     font-weight: 800;
-    line-height: 33px;
     }
-.resume{
-    width: 228px;
-    height: 58px;
+.btn-1{
+    width: 180px;
+    height: 24px;
     float: right;
-    margin: 38px 166px 0 0 ;
+    padding: 17px 24px 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+    margin: 38px 166px 35px 0;
     opacity: 0.8;
+    font-size: 15px;
+    font-weight: 600px;
+    text-align: center;
     }
-.future{
+.near_future{
     width: 1440px;
     height: 652px;
     float: left;
@@ -33,9 +38,40 @@
 .hope{
     width: 998px;
     height: 582px;
-    background-color: red;
     float: left;
     margin: 26px 221px 44px 221px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.image-1{
+    width: 998px;
+    height: 272px;
+    float: left;
+    text-align: center;
+}
+.heading-1{
+    width: 998px;
+    height: 136px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+.para-1{
+    width: 998px;
+    height: 174px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+}
+.btn-2{
+    width: 160px;
+    height: 24px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    margin: 0 395px 44px 395px;
+    float: left;
+    font-size: 20px;
 }
 .why_web{
     width: 946px;
@@ -48,37 +84,73 @@
 .inspiration{
     width: 1140px;
     height: 775px;
-    background-color: red;
     float: left;
     margin: 0 152px 151px 148px;
 }
+.heading-3{
+    width: 852px;
+    height: 113px;
+    float: left;
+    margin: 0 144px 48px 144px;
+    text-align: center;
+}
+.video{
+    width: 1076px;
+    height: 550px;
+    float: left;
+    padding: 32px 32px 32px 32px;
+    background-color: red;
+}
+.video iframe{
+    width: 1076px;
+    height: 550px;
+    float: left;
+}
 .targets{
     width: 1140px;
-    height: 1437px;
+    height: 1445px;
     background-color: red;
     float: left;
-    margin: 0 150px 49px 150px;
+    margin: 0 150px 41px 150px;
 }
-.need{
+.c-target{
+    width: 1140px;
+    height: 463px;
+    background-color: green;
+    float: left;
+    margin: 0 0 111px 0;
+}
+.n-target{
+    width: 1140px;
+    height: 871px;
+    background-color: yellow;
+    float: left;
+    margin:0;
+}
+.support{
     width: 1044px;
-    height: 185px;
+    height: 186px;
     background-color: red;
     float: left;
     padding: 64px 48px 64px 48px;
-    margin: 0 150px 180px 150px;
+    margin: 0 150px 79px 150px;
+}
+.suggestion{
+    width: 1044px;
+    height: 186px;
+    float: left;
+    background-color: yellow;
 }
 .ending{
     width: 1140px;
     height: 36px;
-    background-color: red;
+    background-color: white;
     float: left;
     padding: 32px 150px 32px 150px;
-    border: 1px solid blue;
 }
 .fb{
     width: 1140px;
     height: 36px;
-    background-color: red;
     float: left;
-    padding: 32px 150px 32px 150px;
+    background-color: red;
 }
