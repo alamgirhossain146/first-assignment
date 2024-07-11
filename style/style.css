@@ -168,23 +168,63 @@ heading-3{
 .targets{
     width: 1140px;
     height: 1445px;
-    background-color: red;
     float: left;
     margin: 0 150px 41px 150px;
 }
-.c-target{
+.c-targets{
     width: 1140px;
     height: 463px;
-    background-color: green;
     float: left;
-    margin: 0 0 111px 0;
+    margin-bottom: 111px;
 }
-.n-target{
+.heading-box-4{
+    width: 852px;
+    height: 115px;
+    float: left;
+    margin: 0 144px 48px 144px;
+    text-align: center;
+}
+.ctarget-box{
+    width: 1140px;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ctarget{
+    width: 284px;
+    height: 220px;
+    float: left;
+    padding: 40px;
+}
+.n-targets{
     width: 1140px;
     height: 871px;
-    background-color: yellow;
     float: left;
-    margin:0;
+}
+.heading-box-5{
+    width: 852px;
+    height: 115px;
+    float: left;
+    margin: 0 144px 48px 144px;
+    text-align: center;
+}
+.ntargets-box{
+    width: 1060px;
+    height: 140px;
+    padding: 40px;
+    float: left;
+}
+.ntarget-img{
+    width: 120px;
+    height: 140px;
+    float: left;
+    margin: 16px 30px 16px 0;
+}
+.ntarget-text{
+    width: 910px;
+    height: 140px;
+    float: left;
 }
 .support{
     width: 1044px;
